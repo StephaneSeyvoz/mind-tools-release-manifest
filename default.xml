@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+	<remote name="github-mind-tools" fetch="https://github.com/MIND-Tools" />
+	<remote name="github-mind4se" fetch="https://github.com/Mind4SE" />
+
+	<!-- Git projects from github-mind-tools remote -->
+	<project path="mind-compiler" name="mind-compiler" remote="github-mind-tools" sync-c="true" revision="master" />
+
+	<!-- Git projects from github-mind4se remote -->
+		<!-- TODO, after resolving dependencies issues -->
+
+	<!-- MIND-Tools Assembly pom, from github-mind-tools remote -->
+	<project path="." name="mind-tools" remote="github-mind-tools" sync-c="true" revision="master" />
+
+</manifest>
