@@ -2,6 +2,11 @@
 
 <manifest>
 
+	<!--
+		Git remotes declaration and aliases:
+		The release both uses the official MIND-Tools compiler repository, and Mind4SE plugins
+		(such as IAR Extension, Mind Visual Diff, MindUnit, and more).
+	-->
 	<remote name="github-mind-tools" fetch="https://github.com/MIND-Tools" />
 	<remote name="github-mind4se" fetch="https://github.com/Mind4SE" />
 
@@ -10,7 +15,7 @@
 	<project path="mind-compiler" name="mind-compiler" remote="github-mind-tools" sync-c="true" revision="master" />
 
 	<!-- Git projects from github-mind4se remote -->
-		<!-- TODO, after resolving dependencies issues -->
+		<!-- To be completed -->
 
 	<!-- MIND-Tools Assembly pom, from github-mind-tools remote -->
 	<project path="." name="mind-tools" remote="github-mind-tools" sync-c="true" revision="master" />
