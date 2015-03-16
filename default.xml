@@ -9,6 +9,7 @@
 	-->
 	<remote name="github-mind-tools" fetch="https://github.com/MIND-Tools" />
 	<remote name="github-mind4se" fetch="https://github.com/Mind4SE" />
+	<remote name="github-ssz" fetch="https://github.com/StephaneSeyvoz" />
 
 	<!-- Git projects from github-mind-tools remote -->
 	<project path="maven" name="maven" remote="github-mind-tools" sync-c="true" revision="master" />
@@ -18,6 +19,6 @@
 	<project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="master" />
 
 	<!-- MIND-Tools Assembly pom, from github-mind-tools remote -->
-	<project path="." name="mind-tools" remote="github-mind-tools" sync-c="true" revision="master" />
+	<project path="." name="mind-tools" remote="github-ssz" sync-c="true" revision="master" />
 
 </manifest>
