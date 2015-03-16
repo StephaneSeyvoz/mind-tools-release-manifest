@@ -15,7 +15,7 @@
 	<project path="mind-compiler" name="mind-compiler" remote="github-mind-tools" sync-c="true" revision="master" />
 
 	<!-- Git projects from github-mind4se remote -->
-		<!-- To be completed with Mind4SE plugins -->
+	<project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="master" />
 
 	<!-- MIND-Tools Assembly pom, from github-mind-tools remote -->
 	<project path="." name="mind-tools" remote="github-mind-tools" sync-c="true" revision="master" />
