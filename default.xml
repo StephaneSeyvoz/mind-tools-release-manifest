@@ -15,7 +15,35 @@
 	<project path="mind-compiler" name="mind-compiler" remote="github-mind-tools" sync-c="true" revision="master" />
 
 	<!-- Git projects from github-mind4se remote -->
+		
+		<!-- Mind4SE/mindoc fork, may be reviewed and merged With the official repository -->
 	<project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="master" />
+		
+		<!-- Mind4SE-specific repositories, not forked in the official repository -->
+			
+			<!-- Third-party compiler support -->
+	<project path="iar-extension" name="iar-extension" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="diab-extension" name="diab-extension" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="generic-compiler-extension" name="generic-compiler-extension" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="generic-compiler-executor" name="generic-compiler-executor" remote="github-mind4se" sync-c="true" revision="master" />
+	
+			<!-- Core compiler extensions -->
+	<project path="Optimization-Backend" name="Optimization-Backend" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="garbage-composite-annotation" name="garbage-composite-annotation" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="dumpdot-annotation" name="dumpdot-annotation" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="global-extensions" name="global-extensions" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="simple-c-macro-generator" name="simple-c-macro-generator" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="json-dump" name="json-dump" remote="github-mind4se" sync-c="true" revision="master" />
+	
+			<!-- Additional CLI tools / according plugins -->
+	<project path="mindunit" name="mindunit" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="mindot-viewer" name="mindot-viewer" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="mind-cpp" name="mind-cpp" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="dependency-tools" name="dependency-tools" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="mind-visual-diff" name="mind-visual-diff" remote="github-mind4se" sync-c="true" revision="master" />
+	
+			<!-- MindEd-ready reworked examples -->
+	<project path="examples" name="examples" remote="github-mind4se" sync-c="true" revision="master" />
 
 	<!-- MIND-Tools Assembly pom, from github-mind-tools remote -->
 	<project path="." name="mind-tools" remote="github-mind-tools" sync-c="true" revision="master" />
