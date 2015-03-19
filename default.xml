@@ -47,6 +47,6 @@
 	<project path="examples" name="examples" remote="github-mind4se" sync-c="true" revision="master" />
 
 	<!-- MIND-Tools Assembly pom, from github-mind-tools remote -->
-	<project path="." name="mind-tools" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="." name="mind-tools" remote="github-ssz" sync-c="true" revision="2_all_m4se_plugins" />
 
 </manifest>
