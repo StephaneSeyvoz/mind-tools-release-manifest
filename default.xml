@@ -13,12 +13,10 @@
 	<!-- Git projects from github-mind-tools remote -->
 	<project path="maven" name="maven" remote="github-mind-tools" sync-c="true" revision="master" />
 	<project path="mind-compiler" name="mind-compiler" remote="github-mind-tools" sync-c="true" revision="master" />
+	<project path="mindoc" name="mindoc" remote="github-mind-tools" sync-c="true" revision="master" />
 
 	<!-- Git projects from github-mind4se remote -->
-		
-		<!-- Mind4SE/mindoc fork, may be reviewed and merged With the official repository -->
-	<project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="master" />
-		
+	
 		<!-- Mind4SE-specific repositories, not forked in the official repository -->
 			
 			<!-- Third-party compiler support -->
