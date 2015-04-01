@@ -11,7 +11,7 @@
 	<remote name="github-mind4se" fetch="https://github.com/Mind4SE" />
 
 	<!-- Git projects from github-mind-tools remote -->
-	<project path="maven" name="maven" remote="github-mind-tools" sync-c="true" revision="master" />
+	<project path="mind-parent" name="mind-parent" remote="github-mind-tools" sync-c="true" revision="master" />
 	<project path="mind-compiler" name="mind-compiler" remote="github-mind-tools" sync-c="true" revision="master" />
 	<project path="mindoc" name="mindoc" remote="github-mind-tools" sync-c="true" revision="master" />
 
